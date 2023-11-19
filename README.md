@@ -1,2 +1,2 @@
-# C-Examples
-A small collection of how-to's I've used in C++
+# CPP Examples
+This repository contains a small collection of examples on usage of C++ features I use in my projects. 
