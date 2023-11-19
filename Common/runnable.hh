@@ -4,8 +4,6 @@
  * @brief common interface for examples
  * @version 1.0
  * @date 2023-11-19
- * 
- * @copyright Copyright (c) 2023
  * *********************************************************************/
 
 #if !defined(CPP_EXAMPLES_RUNNABLE)

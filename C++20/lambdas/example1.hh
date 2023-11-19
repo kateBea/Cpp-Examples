@@ -4,8 +4,6 @@
  * @brief simple usage of lambda templates to print a range of elements
  * @version 1.0
  * @date 2023-11-19
- * 
- * @copyright Copyright (c) 2023
  * *********************************************************************/
 
 #if !defined(CPP_EXAMPLES_CPP20_LAMBDAS_EXAMPL1)

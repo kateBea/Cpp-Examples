@@ -4,8 +4,6 @@
  * @brief simple usage of lambdas perfect capture
  * @version 1.0
  * @date 2023-11-19
- * 
- * @copyright Copyright (c) 2023
  * *********************************************************************/
 
 #if !defined(CPP_EXAMPLES_CPP20_LAMBDAS_EXAMPL2)
