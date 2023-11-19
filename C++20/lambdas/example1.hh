@@ -1,22 +1,26 @@
+/************************************************************************
+ * @file main.cc
+ * @author kate
+ * @brief simple usage of lambda templates to print a range of elements
+ * @version 1.0
+ * @date 2023-11-19
+ * 
+ * @copyright Copyright (c) 2023
+ * *********************************************************************/
+
+#if !defined(CPP_EXAMPLES_CPP20_LAMBDAS_EXAMPL1)
+#define CPP_EXAMPLES_CPP20_LAMBDAS_EXAMPL1
+
 #include <algorithm>
-#include <common/runnable.hh>
 #include <iostream>
 #include <vector>
 
-namespace examples::templated_lambda {
+#include <common/runnable.hh>
+
+namespace examples::lambdas {
     class example1 : public runnable {
     public:
         auto run() -> void override {
-            // compute max value from two
-            auto max{
-                []<typename Type>( const Type& first, const Type& second ) -> Type {
-                    return second < first ? first : second;
-                }
-            };
-
-            std::cout << "lambda max(4.5, 6.7): " << max( 4.5, 6.7 ) << std::endl;
-
-            // display list of elements from range
             auto display{
                 []<typename ForwardIt>( ForwardIt first, ForwardIt last ) {
                     for ( ; first != last; ++first )
@@ -30,3 +34,5 @@ namespace examples::templated_lambda {
         }
     };
 }
+
+#endif

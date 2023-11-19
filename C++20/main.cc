@@ -8,12 +8,13 @@
  * @copyright Copyright (c) 2023
  * *********************************************************************/
 
-#include <templated_lambda/example1.hh>
+#include <lambdas/example1.hh>
+#include <lambdas/example2.hh>
 
 int main(int, char**) {
     using namespace examples;
 
-    auto example{ templated_lambda::example1() };
+    auto example{ lambdas::example2() };
     example.run();
     
     return 0;

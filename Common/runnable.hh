@@ -8,9 +8,14 @@
  * @copyright Copyright (c) 2023
  * *********************************************************************/
 
+#if !defined(CPP_EXAMPLES_RUNNABLE)
+#define CPP_EXAMPLES_RUNNABLE
+
 namespace examples {
     class runnable {
     public:
         virtual auto run() -> void = 0;
     };
 }
+
+#endif
