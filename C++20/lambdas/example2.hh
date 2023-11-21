@@ -16,7 +16,7 @@
 #include <thread>
 #include <vector>
 
-#include <common/runnable.hh>
+#include <Common/runnable.hh>
 
 namespace examples::lambdas {
     class example2 : public runnable {
